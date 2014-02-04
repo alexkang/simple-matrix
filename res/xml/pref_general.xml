@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_rational"
+        android:summary="@string/pref_description_rational"
+        android:title="@string/pref_title_rational" />
+
+</PreferenceScreen>

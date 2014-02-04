@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Matrix Calc</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Basic</string>
+    <string name="title_section2">Determinant</string>
+    <string name="title_section3">Inverse</string>
+    <string name="calculate">Calculate!</string>
+    <string name="action_clear">Clear</string>
+    <string name="title_activity_display_result">DisplayResultActivity</string>
+    <string name="warning">        If in Fraction Mode, the period acts as numerator/denominator divider. (i.e. "1.2" = "1/2")</string>
+
+    <string-array name="operations">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+    </string-array>
+    <string-array name="dimensions">
+        <item>2x2 Matrix Calc</item>
+        <item>3x3 Matrix Calc</item>
+        <item>4x4 Matrix Calc</item>
+    </string-array>
+
+    <string name="title_activity_main_activity3">MainActivity3</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

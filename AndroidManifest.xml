@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alexkang.x3matrixcalculator"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_final"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.alexkang.x3matrixcalculator.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alexkang.x3matrixcalculator.DisplaySumActivity"
+            android:label="@string/title_activity_display_result"
+            android:parentActivityName="com.alexkang.x3matrixcalculator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.x3matrixcalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.alexkang.x3matrixcalculator.DisplayResultActivity"
+            android:label="@string/title_activity_display_result"
+            android:parentActivityName="com.alexkang.x3matrixcalculator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.x3matrixcalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.alexkang.x3matrixcalculator.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.alexkang.x3matrixcalculator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alexkang.x3matrixcalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.alexkang.x3matrixcalculator.MainActivity3"
+            android:label="@string/title_activity_main_activity3" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_description_rational">Check this to enable fractional input/output rather than decimal input/output</string>
+    <string name="pref_title_rational">Fraction Mode</string>
+
+</resources>
