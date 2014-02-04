@@ -3,12 +3,12 @@
     <item android:id="@+id/action_clear"
         android:icon="@drawable/ic_action_cancel"
         android:title="@string/action_clear"
-        android:showAsAction="ifRoom" />
+        android:showAsAction="always" />
     
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:showAsAction="never"
+        android:showAsAction="collapseActionView"
         android:title="@string/action_settings"/>
 
 </menu>
