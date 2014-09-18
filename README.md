@@ -1,4 +1,4 @@
-SimpleMatrixCalculator
+[WINTER 2013] SimpleMatrixCalculator
 ======================
 
 Square matrix calculator for Android
