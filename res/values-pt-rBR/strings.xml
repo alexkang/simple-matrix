@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Matrix Calc</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_section1">Básico</string>
+    <string name="title_section2">Determinante</string>
+    <string name="title_section3">Inversa</string>
+    <string name="calculate">Calcular!</string>
+    <string name="action_clear">Limpar</string>
+    <string name="title_activity_display_result">DisplayResultActivity</string>
+    <string name="warning">        Se no Modo Fração, o ponto age como divisor do numerador/denominador. (ex: "1.2" = "1/2")
+</string>
+
+    <string-array name="operations">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+    </string-array>
+    <string-array name="dimensions">
+        <item>Calculadora de Matriz 2x2</item>
+        <item>Calculadora de Matriz 3x3</item>
+        <item>Calculadora de Matriz 4x4</item>
+    </string-array>
+
+    <string name="title_activity_main_activity3">MainActivity3</string>
+    <string name="hello_world">Olá, mundo!</string>
+
+</resources>

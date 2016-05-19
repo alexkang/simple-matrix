@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="title_activity_settings">Configurações</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_description_rational">Marque isso para habilitar entrada/saída fracional em vez de entrada/saída decimal</string>
+    <string name="pref_title_rational">Modo Fração</string>
+
+</resources>
