@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Matrix Calc</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_section1">Dasar</string>
+    <string name="title_section2">Determinan</string>
+    <string name="title_section3">Kebalikan</string>
+    <string name="calculate">Hitung!</string>
+    <string name="action_clear">Tuntas</string>
+    <string name="title_activity_display_result">TampilanHasilAktivitas</string>
+    <string name="warning">       Jika dalam Mode Pecahan, periode bertindak sebagai pembagi pembilang / penyebut. (misalkan "1.2" = "1/2")</string>
+
+    <string-array name="operations">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+    </string-array>
+    <string-array name="dimensions">
+        <item>2x2 Matrix Calc</item>
+        <item>3x3 Matrix Calc</item>
+        <item>4x4 Matrix Calc</item>
+    </string-array>
+
+    <string name="title_activity_main_activity3">MainActivity3</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
