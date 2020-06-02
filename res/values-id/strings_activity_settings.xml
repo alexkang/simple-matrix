@@ -1,0 +1,13 @@
+  
+<resources>
+
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_description_rational">Cek ini untuk mengaktifkan masukan/keluaran fraksional dibandingkan masukan/keluaran desimal</string>
+    <string name="pref_title_rational">Mode Pecahan</string>
+
+</resources>
